@@ -26,7 +26,7 @@ except socket.gaierror:
     print("_"*len(target_domain))
     sys.exit()
 
-with open('subdomains.txt') as file:
+with open('Subdomains.txt') as file:
     subdomains=file.read().splitlines()
 
 discover_subdomains = []
