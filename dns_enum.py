@@ -9,8 +9,8 @@ try:
     target_domain = sys.argv[1]
 
 except IndexError:
-    print("Syntax Error - puthon3 .\dns_enum.py <domainname>")
-    print("     example - python3 .\dns_enum.py youtube.com")
+    print(r"Syntax Error - puthon3 .\dns_enum.py <domainname>")
+    print(r"     example - python3 .\dns_enum.py youtube.com")
     quit()
 
 records_type = ['A','AAAA','NS','PTR','CNAME','MX','TXT','SOA']
